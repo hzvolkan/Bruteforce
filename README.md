@@ -5,7 +5,7 @@
 
 # **Gereksinimler**
 - > *Python v3.9*
-- > ****Günce Proxy Listesi
+- > *GünceL Proxy Listesi*
 
 # **DESTEKÇILERI YÜKLEYIN**
 - > *pip install pipenv**
