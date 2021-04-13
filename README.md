@@ -12,4 +12,54 @@
 
 
  **PYTHON 3.9'UN KURULU OLDUĞUNDAN EMIN OLUN**
-> *pipenv --python 3.9*
+- > *pipenv --python 3.9*
+
+# **Kurulum Gereksinimleri**
+- > pipenv install
+
+# **YARIMCI KOMUTLAR**
+
+
+- *> usage: -h, --help    -k KULLANICIADI, -p PASSLISTESI,-px PROXYLISTESI,  --prune PRUNE --stats               proxy istatisliklerini görmek için -nc, --renk yok*
+
+**Programa bir proxy listesi yükleyin. Proxy dosyası şu formatta olmalıdır: ip:port**
+
+**Örnek;**
+
+> *proxies_list.txt
+3.238.111.248:80
+206.189.59.192:8118
+165.22.81.30:34100
+176.248.120.70:3128
+191.242.178.209:3128
+180.92.194.235:80*
+**
+
+**PROXY LISTESINI YÜKLEMEK IÇIN YAZILACAK KOMUT **
+- > *python3 Erkoyuncu.py -px <proxy yolu>*
+
+
+**BU, KOMUT PROXYLER HAKKINDA SAĞLIK DURUMUNU VERIR.**
+
+- > *python Erkoyuncu.py --stats*
+
+**BU, BELIRLI BIR PUANIN ALTINDA BIR PUANA SAHIP PROXY'LERDEN KURTULMAYI SAĞLAR. AŞAĞIDA PROXY PUANI OLAN PROXY'LERIN VERITABANINI SIZE GÖSTERIR (Yazılım zaten hangi proxy'lerin kötü performans gösterdiğini otomatik olarak öğrenecek ve bunları kullanmayı bırakacaktır.)**
+
+- > *python Erkoyuncu.py --prune 0.05*-
+
+# **Kullanım**
+> - python3 Erkoyuncu.py -u kullanıcıadı -p passlistesi -px proxylistesi
+
+
+- > *YAZILIM İÇİ
+- [-] Passwordlistesi:
+- [-] Kullanıcı Adı:
+- [-] Şifre:
+- [-] Tamamlanan:
+- [-] Denenen:
+- [-] Proxyler:
+- [-] Bağlantı:*
+
+- *> [!] HEYY Kurbanın Şifresini Buldum 
+- [+] Kullanıcı Adı:
+- [+] Şifresi:*
