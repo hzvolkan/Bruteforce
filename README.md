@@ -48,6 +48,8 @@
 - > *python Erkoyuncu.py --prune 0.05*-
 
 # **Kullanım**
+>-  *git clone https://github.com/erkoyuncu/volkan.git*
+
 > - python3 Erkoyuncu.py -u kullanıcıadı -p passlistesi -px proxylistesi
 
 
