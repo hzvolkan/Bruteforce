@@ -5,10 +5,10 @@
 
 # **Gereksinimler**
 - > *Python v3.9*
-- > *GünceL Proxy Listesi*
+- > *Güncel Proxy Listesi*
 
 # **DESTEKÇILERI YÜKLEYIN**
-- > *pip install pipenv**
+- > *pip install pipenv*
 
 
  **PYTHON 3.9'UN KURULU OLDUĞUNDAN EMIN OLUN**
