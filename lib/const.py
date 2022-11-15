@@ -1,8 +1,8 @@
-# Date: 12/04/2021
-# Author: Erkoyuncu
+# Date: 15/11/2022
+# Author: volkan
 # Twitter:VolkanErk
-# İnstagram:Volkanerkoyuncu
-# Github:Erkoyuncu
+# İnstagram:Volkanhaznedaroglu01
+# Github:hzvolkan
 
 import os
 
