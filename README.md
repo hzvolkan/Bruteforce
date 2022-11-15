@@ -7,9 +7,8 @@
 - > *Python v3.9*
 - > *Güncel Proxy Listesi*
 
-# **DESTEKÇILERI YÜKLEYIN**
+# **ÖNCELİKLE MODÜLLERİ YÜKLEYİN**
 - > *pip install pipenv*
-
 
  **PYTHON 3.9'UN KURULU OLDUĞUNDAN EMIN OLUN**
 - > *pipenv --python 3.9*
@@ -19,8 +18,7 @@
 
 # **YARIMCI KOMUTLAR**
 
-
-- *> usage: -h, --help    -k KULLANICIADI, -p PASSLISTESI,-px PROXYLISTESI,  --prune PRUNE --stats               proxy istatisliklerini görmek için -nc, --renk yok*
+- *> usage: -h, --help    -k KULLANICIADI, -p PASSLISTESI,-px PROXYLISTESI,  --prune PRUNE --stats    proxy istatisliklerini görmek için -nc, --renk kapalı modu *
 
 **Programa bir proxy listesi yükleyin. Proxy dosyası şu formatta olmalıdır: ip:port**
 
@@ -36,21 +34,21 @@
 **
 
 **PROXY LISTESINI YÜKLEMEK IÇIN YAZILACAK KOMUT **
-- > *python3 Erkoyuncu.py -px <proxy yolu>*
+- > *python3 hzvolkan.py -px <proxy yolu>*
 
 
 **BU, KOMUT PROXYLER HAKKINDA SAĞLIK DURUMUNU VERIR.**
 
-- > *python Erkoyuncu.py --stats*
+- > *python hzvolkan.py --stats*
 
 **BU, BELIRLI BIR PUANIN ALTINDA BIR PUANA SAHIP PROXY'LERDEN KURTULMAYI SAĞLAR. AŞAĞIDA PROXY PUANI OLAN PROXY'LERIN VERITABANINI SIZE GÖSTERIR (Yazılım zaten hangi proxy'lerin kötü performans gösterdiğini otomatik olarak öğrenecek ve bunları kullanmayı bırakacaktır.)**
 
-- > *python Erkoyuncu.py --prune 0.05*-
+- > *python hzvolkan.py --prune 0.05*-
 
 # **Kullanım**
 >-  *git clone https://github.com/erkoyuncu/volkan.git*
 
-> - python3 Erkoyuncu.py -u kullanıcıadı -p passlistesi -px proxylistesi
+> - python3 hzvolkan.py -u kullanıcıadı -p passlistesi -px proxylistesi
 
 
 - > *YAZILIM İÇİ
