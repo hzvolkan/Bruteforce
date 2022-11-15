@@ -46,7 +46,7 @@
 - > *python hzvolkan.py --prune 0.05*-
 
 # **Kullanım**
->-  *git clone https://github.com/erkoyuncu/volkan.git*
+>-  *git clone https://github.com/hzvolkan.py/volkan.git*
 
 > - python3 hzvolkan.py -u kullanıcıadı -p passlistesi -px proxylistesi
 
