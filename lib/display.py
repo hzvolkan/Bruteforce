@@ -1,8 +1,9 @@
-# Date: 12/04/2021
-# Author: Erkoyuncu
+# Date: 15/11/2022
+# Author: Volkan
 # Twitter:VolkanErk
-# İnstagram:Volkanerkoyuncu
-# Github:Erkoyuncu
+# İnstagram:Volkanhaznedaroglu01
+# Github:hzvolkan
+
 
 from os import system
 from time import sleep
@@ -164,7 +165,7 @@ class Display(object):
 
         if self.__is_color:
             print(
-                "\n{0}[{1}!{0}] {2}Kendine dikkat et ben hep yanında olacağım -Erkoyuncu ...{3}".format(
+                "\n{0}[{1}!{0}] {2}Kendine dikkat et ben hep yanında olacağım -Haznedaroglu ...{3}".format(
                     Fore.YELLOW, Fore.RED, Fore.WHITE, Fore.RESET
                 )
             )
