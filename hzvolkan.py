@@ -1,7 +1,7 @@
 # Date: 12/04/2021
 # Author: Haznedaroglu
 # Twitter:VolkanErk
-# İnstagram:Volkanhaznedaroglu01
+# İnstagram:Volkanhaznedaroğlu01
 # Github:hzvolkan
 
 # from lib.proxy import Proxy
